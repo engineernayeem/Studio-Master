@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="bn">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>StudioMaster - পাসপোর্ট ও স্টুডিও ফটো মেকার</title>
+    <meta name="description" content="অটোমেটিক ব্যাকগ্রাউন্ড রিমুভার, চেহারা স্মুথ ও ফর্সা, পাসপোর্ট ও স্ট্যাম্প সাইজ ক্রপ এবং A4 পেপারে মাল্টি-প্রিন্ট স্টুডিও টুল" />
+    <meta property="og:title" content="StudioMaster - পাসপোর্ট ও স্টুডিও ফটো মেকার" />
+    <meta property="og:description" content="অটোমেটিক ব্যাকগ্রাউন্ড রিমুভার, চেহারা স্মুথ ও ফর্সা, পাসপোর্ট ও স্ট্যাম্প সাইজ ক্রপ এবং A4 পেপারে মাল্টি-প্রিন্ট স্টুডিও টুল" />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+      @media print {
+        body {
+          margin: 0 !important;
+          padding: 0 !important;
+          background: white !important;
+        }
+        .no-print {
+          display: none !important;
+        }
+        .print-only {
+          display: block !important;
+        }
+        @page {
+          size: A4 portrait;
+          margin: 0;
+        }
+      }
+      .print-only {
+        display: none;
+      }
+      /* Photoshop UI scrollbars */
+      ::-webkit-scrollbar {
+        width: 6px;
+        height: 6px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #181a1f;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #2f343e;
+        border-radius: 3px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #414856;
+      }
+    </style>
+  </head>
+  <body class="bg-[#14161a] text-neutral-200 antialiased font-['Inter','Hind_Siliguri',sans-serif] selection:bg-blue-600 selection:text-white overflow-x-hidden">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+

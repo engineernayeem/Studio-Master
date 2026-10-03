@@ -1,0 +1,10 @@
+{
+  "name": "StudioMaster - পাসপোর্ট ও স্টুডিও ফটো মেকার",
+  "description": "অটোমেটিক ব্যাকগ্রাউন্ড রিমুভার, চেহারা স্মুথ ও ফর্সা, পাসপোর্ট ও স্ট্যাম্প সাইজ ক্রপ এবং A4 পেপারে মাল্টি-প্রিন্ট স্টুডিও টুল",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
